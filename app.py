@@ -318,7 +318,7 @@ if view_mode == "Valuation Dashboard":
     st.markdown("<br>", unsafe_allow_html=True)
     col_act1, col_act2, col_act3 = st.columns([1, 2, 1])
     with col_act2:
-        if st.button("✨ GENERATE VALUATION REPORT", use_container_width=True):
+        if st.button("🚀 GENERATE VALUATION REPORT", use_container_width=True):
             with st.spinner("Analyzing market vectors..."):
                 time.sleep(0.5)
 
